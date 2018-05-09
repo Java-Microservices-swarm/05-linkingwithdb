@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-run</actionName>
+            <displayName>run</displayName>
+            <goals>
+                <goal>wildfly-swarm:run</goal>
+            </goals>
+            <properties>
+                <swarm.ds.name>hoeds</swarm.ds.name>
+                <swarm.ds.username>hoe</swarm.ds.username>
+                <swarm.ds.password>hoe</swarm.ds.password>
+                <swarm.ds.connection.url>jdbc:mysql://localhost:3306/hoe?useSSL=false</swarm.ds.connection.url>
+            </properties>
+        </action>
+    </actions>
